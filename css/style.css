@@ -1,0 +1,371 @@
+*{padding:0;margin:0;}
+#content textarea{
+	min-width: 300px;
+	min-height: 300px;
+	border: 2px #999 solid;
+	border-radius: 20px;
+	padding: 10px 3px 10px 3px;
+}
+body{
+	background-color: #EEE;
+	text-align: center;
+}
+article{
+	text-align: center;
+	margin: -30px 30px 30px 30px;
+	position: relative;
+	font-family: tahoma;
+}
+article select{
+	font-family: tahoma;
+}
+header .welcome{
+	font-family: tahoma;
+	font-size: 20px;
+	margin: 15px auto;
+	color:#164af1;
+}
+.body{
+	padding: 60px;
+	font-family: tahoma;
+	min-height: 400px;
+	text-align: center;
+}
+.topMenu {
+	margin: 20px auto;
+	z-index: 1;
+}
+.topMenu a {
+	font-family: tahoma;
+	color: #666;
+	background-color: #DDD;
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	padding: 5px 20px 5px 20px;
+	text-decoration:none;
+}
+.topMenu a:hover{
+	color: #FFF;
+	background-color: #009c13;
+	display: inline-block;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+	cursor: pointer;
+}
+.topMenu a.active{
+	color: #FFF;
+	background-color: #009c13;
+	display: inline-block;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+	cursor: pointer;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.lineTop{
+	position: absolute;
+	top: 30px;
+	left:0;
+	display: inline-block;
+	min-height: 30px;
+	width: 100%;
+	background-color: #164af1;
+	border-radius: 20px;
+	box-shadow: 3px 3px 15px #164af1;
+}
+.lineLeft{
+	position: absolute;
+	top:0;
+	left: 30px;
+	display: inline-block;
+	min-width: 30px;
+	height: 100%;
+	background-color: #e32333;
+	border-radius: 20px;
+	box-shadow: 3px 3px 15px #e32333;
+}
+.lineRight{
+	position: absolute;
+	top:0;
+	right:30px;
+	display: inline-block;
+	min-width: 30px;
+	height: 100%;
+	background-color: #fcaa07;
+	border-radius: 20px;
+	box-shadow: 3px 3px 15px #fcaa07;
+}
+.lineBottom{
+	position: absolute;
+	bottom:30px;
+	left:0;
+	display: inline-block;
+	min-height: 30px;
+	width: 100%;
+	background-color: #009c13;
+	border-radius: 20px;
+	box-shadow: 3px 3px 15px #009c13;
+}
+.welcome{
+	color: #164af1;
+	margin: 60px auto;
+	text-align: center;
+	font-size: 40px;
+}
+.goto {
+	display: inline-block;
+	padding: 15px 50px 20px 50px;
+	background-color: #CCC;
+	color: #DDD;
+	border-radius: 30px;
+	box-shadow: 3px 3px 15px #999;
+	font-size: 40px;
+}
+.goto:hover{
+	display: inline-block;
+	padding: 15px 50px 20px 50px;
+	background-color: #009c13;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 30px;
+	box-shadow: 3px 3px 15px #009c13;
+}
+.testsList{
+	margin: 20px auto;
+}
+.testsList .tableList{
+	display: inline-block;
+	border: 3px dashed #DDD;
+	border-radius: 30px;
+	padding: 10px;
+}
+.testsList .tableList table td.first{
+	min-width: 200px;
+}
+.testsList .tableList table td.first{
+	text-align: right;
+}
+.testsList .tableList table td.active{
+	color: #009c13;
+	min-width: 100px;
+}
+.testsList .tableList table td.disActive{
+	color: #999;
+	min-width: 100px;
+}
+.testsList .tableList table td.last{
+	min-width: 60px;
+}
+.testsList .tableList table td.last a{
+	color: #666;
+	background-color: #DDD;
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	padding: 3px 20px 3px 20px;
+	text-decoration:none;
+}
+.testsList .tableList table td.last a:hover{
+	color: #FFF;
+	background-color: #009c13;
+	display: inline-block;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+}
+.answerBorder {}
+.answerBorder .timeAgo {
+	font-size: 20px;
+	margin: auto auto 10px auto;
+}
+.answerBorder .timeAgo span {
+	color: #164af1;
+}
+.answerBorder .timeAgo span.text {
+	color: #000;
+}
+.answerBorder div.title {
+	font-size: 20px;
+}
+.answerBorder div.answer {
+	color: #666;
+	min-width: 300px;
+	min-height:300px;
+	display: inline-block;
+	border: 3px dashed #CCC;
+	border-radius: 30px;
+	padding: 3px 20px 3px 20px;
+	margin: 20px;
+	/*text-align: right;*/
+}
+.answerBorder .alogrithmBox {
+	text-align: right;
+}
+.answerBorder .answerBox{
+	margin: 20px auto;
+	text-align: center;
+}
+.answerBorder .answerBox textarea[name=answer]{
+	min-width: 400px;
+	min-height: 150px;
+	border: 1px solid #CCC;
+	border-radius: 20px;
+	padding: 10px;
+}
+.answerBorder .answerBox .answerSubmit{
+	display: inline-block;
+	font-family: tahoma;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 10px;
+}
+.answerBorder .answerBox .answerSubmit:hover{
+	color: #FFF;
+	background-color: #009c13;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+	cursor: pointer;
+}
+.alertBox span ,.alertBox2 span {
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 10px;
+}
+.alertBox span:hover,.alertBox2 span:hover {
+	color: #FFF;
+	background-color: #009c13;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+	cursor: pointer;
+}
+table.userEvaluation{
+	margin: 20px auto;
+	border-collapse:separate; 
+	border-spacing: 0 0;
+}
+table.userEvaluation th{
+	min-width: 120px;
+}
+table.userEvaluation td{
+	padding: 5px;
+}
+table.userEvaluation tr:nth-child(even) {background: #DDD}
+table.userEvaluation tr:nth-child(odds) {background: #FFF}
+.testResult input{
+	width: 70px;
+	font-size: 18px;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #DDD;
+	border-radius: 30px;
+	margin: 0 0 0 10px;
+}
+.testResult span{
+	color: #666;
+	background-color: #DDD;
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 30px;
+	padding: 3px 20px 3px 20px;
+}
+.testResult span:hover{
+	color: #FFF;
+	background-color: #009c13;
+	display: inline-block;
+	border: 1px solid #009c13;
+	box-shadow: 3px 3px 15px #009c13;
+	cursor: pointer;
+}
+#lodingBar{
+	display:none;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	background-color: rgba(0,0,0,0.6);
+	text-align:center;
+	font-family: tahoma;
+	color: #FFF;
+}
+#lodingBar .loadingImage{
+	display: inline-block;
+	width: 126px;
+	height: 22px;
+	background-image: url(images/ajax_loading.gif);
+}
+/**********************************************************************************/
+#messageBox{
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	background-color: rgba(0,0,0,0.7);
+	z-index:1;
+	display: none;
+	font-family: tahoma;
+}
+#messageBox table{
+	border-collapse:separate; 
+	border-spacing: 0 10px;
+}
+#messageBox input[type=text], #messageBox input[type=password]{
+	font-family: tahoma;
+	font-size: 30px;
+	border: 1px solid #DDD;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 3px 3px 15px #DDD;
+	min-width: 400px;
+}
+#messageBox input[type=text]:focus, #messageBox input[type=password]:focus{
+	/*border-color: #FFF;
+	box-shadow: 3px 3px 15px #164af1;*/
+}
+#messageBox input[type=button]{
+	font-family: tahoma;
+	font-size: 30px;
+	color: #CCC;
+	border: 1px solid #DDD;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 0 50px 0 0;
+	box-shadow: 3px 3px 15px #DDD;
+	min-width: 150px;
+}
+#messageBox input[type=button]:hover{
+	background-color: #009c13;
+	border-color: #009c13;
+	color: #FFF;
+	cursor: pointer;
+	box-shadow: 3px 3px 15px #009c13;
+}
+#messageBox2{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#messageBox3{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px;
+	border-radius: 0 20px 0 20px;
+}
+#messageBox3 .content{
+	background-color: #FFF;
+	display: inline-block;
+	min-width: 200px;
+	min-height: 100px;
+	border-radius: 0 10px 0 10px;
+	padding: 10px;
+}
+/*******************************************************************************************/
